@@ -8,7 +8,7 @@
 
 int main(){
 //    std::vector<std::vector<int>> map = HillGenerator::generatePerlin(20, 20);
-    auto map = RiverBezier::River(20,20);
+    auto map = RiverBezier::River(40,40, 3);
     for(auto it:map){
         for(auto it2:it){
             std::cout<<it2<<' ';

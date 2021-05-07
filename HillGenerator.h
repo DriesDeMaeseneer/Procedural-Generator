@@ -7,7 +7,6 @@
 
 #include <vector>
 #include <iostream>
-#include "Point.h"
 #include <cstdlib>
 #include <ctime>
 
